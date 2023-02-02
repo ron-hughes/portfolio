@@ -39,7 +39,7 @@ const Header = () => {
       
         <div>
         <img
-          src='src\assets\ron1.jpg'
+          src="https://i.ibb.co/Npymx96/ron1.jpg"
           style={{
             width: '200px',
             height: '200px',
