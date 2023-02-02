@@ -1,0 +1,36 @@
+a:hover {
+    /* color: #0094C6; */
+    font-weight: bold
+}
+
+.icons { 
+    color: black
+}
+
+a:hover .icons {
+    color: black;
+    /* background-color: #0094C6; */
+}
+
+.circle {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FCFAFA;
+  }
+
+
+  ul li:hover {
+    /* background-color: #0094C6; */
+    /* height: 10px; */
+  }
+
+  #imgproj {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+  }
