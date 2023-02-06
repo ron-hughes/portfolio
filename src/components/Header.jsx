@@ -53,24 +53,23 @@ const Header = () => {
         ></img></div>
                 <div>
    
-   <h1 style={{ fontSize: '4rem'}}>
+   <h1 style={{ fontSize: '1rem', marginTop: '20px'}}>
 
-<Typewriter options={{ 
+    Ron Hughes, Your Next Software Engineer
+
+{/* <Typewriter options={{ 
 loop: true
 }} 
 onInit={(typewriter)=> {
 
-typewriter
+typewriter.typeString('<span style="font-size: 2.2rem">Ron Hughes</span>').pauseFor(1000).deleteAll()
 
-.typeString('<span style="font-size: 2.2rem">Ron Hughes</span>')
-
-.pauseFor(1000)
-.deleteAll()
 .typeString('<span style="font-size: 2.2rem">Web Developer</span>')  
 .start()
 .pauseFor(2000)
+
 }}
-/>  
+/>   */}
    </h1>
    </div> 
          <Icons >

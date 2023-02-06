@@ -32,8 +32,8 @@ box-shadow: 0 10px 10px -5px;
 @media (min-width: 1024px) {
   align-items: center;
   justify-content: center;
-  width: 250px;
-  height: 280px;
+  min-width: 300px;
+  height: 380px;
   word-wrap: break-word;
   border-style: solid;
   border-width: 2px;

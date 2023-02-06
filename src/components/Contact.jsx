@@ -61,9 +61,24 @@ const Projects = () => {
           <DivP>
             <DivStyle>
 
-      I am open to any new opportunities that come my way. Please contact me if you have any inquiries! <br /><br />
+      {/* I am open to any new opportunities that come my way. Please contact me if you have any inquiries! <br /><br />
       <a href="mailto:ron@ronhughes.dev">ron@ronhughes.dev</a><br /> <br />
-      Phone: 203-293-0333
+      Phone: 203-293-0333 */}
+<form method= "POST" name="contact" netlify>
+      <div>
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" name="name"/>
+      </div>
+      <div>
+        <label htmlFor="subject">Subject:</label>
+        <input type="text" id="subject" name="subject"/>
+      </div>
+      <div>
+        <label htmlFor="message">Message:</label>
+        <textarea id="message" name="message"/>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
 
             </DivStyle>
        
